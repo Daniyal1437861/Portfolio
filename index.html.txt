@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio with Tabs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <ul class="tab-list">
+            <li class="tab-item active" data-tab="about">About</li>
+            <li class="tab-item" data-tab="career-objective">Career Objective</li>
+            <li class="tab-item" data-tab="area-of-interest">Area of Interest</li>
+            <li class="tab-item" data-tab="professional-experience">Professional Experience</li>
+            <li class="tab-item" data-tab="education">Education and Qualifications</li>
+            <li class="tab-item" data-tab="diplomas">Diplomas</li>
+            <li class="tab-item" data-tab="research-publications">Research Publications</li>
+            <li class="tab-item" data-tab="conferences">Conferences / Seminars / Training Courses Attended</li>
+            <li class="tab-item" data-tab="achievements">Academic Achievements and Co-curricular Activities</li>
+            <li class="tab-item" data-tab="personal-attributes">Personal Attributes, Skills & Interests</li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-panel active" id="about">
+                <h2>About</h2>
+                <p><strong>Contact Number:</strong> +123456789</p>
+                <p><strong>Email:</strong> example@mail.com</p>
+                <p><strong>Domicile:</strong> Your Domicile</p>
+                <p><strong>Religion:</strong> Your Religion</p>
+            </div>
+            <div class="tab-panel" id="career-objective">
+                <h2>Career Objective</h2>
+                <p>Write your career objective here.</p>
+            </div>
+            <div class="tab-panel" id="area-of-interest">
+                <h2>Area of Interest</h2>
+                <p>Write your areas of interest here.</p>
+            </div>
+            <div class="tab-panel" id="professional-experience">
+                <h2>Professional Experience</h2>
+                <p>Write your professional experience here.</p>
+            </div>
+            <div class="tab-panel" id="education">
+                <h2>Education and Qualifications</h2>
+                <p>Write about your education and qualifications here.</p>
+            </div>
+            <div class="tab-panel" id="diplomas">
+                <h2>Diplomas</h2>
+                <p>List your diplomas here.</p>
+            </div>
+            <div class="tab-panel" id="research-publications">
+                <h2>Research Publications</h2>
+                <p>List any research publications here.</p>
+            </div>
+            <div class="tab-panel" id="conferences">
+                <h2>Conferences / Seminars / Training Courses Attended</h2>
+                <p>List any conferences, seminars, or training courses attended here.</p>
+            </div>
+            <div class="tab-panel" id="achievements">
+                <h2>Academic Achievements and Co-curricular Activities</h2>
+                <p>List your academic achievements and co-curricular activities here.</p>
+            </div>
+            <div class="tab-panel" id="personal-attributes">
+                <h2>Personal Attributes, Skills & Interests</h2>
+                <p>Write about your personal attributes, skills, and interests here.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
